@@ -18,7 +18,7 @@ Firefox or Chrome browser
 Clone the project from the GitHub repository.
 Import the project into IntelliJ IDEA as a Maven project.
 Download the dependencies specified in the pom.xml file.
-Run the tests by executing the testng.xml file or by running the mvn test command.
+Run the tests by running each testng test class from config mvn test command.
 
 # Project Structure #
 src/main/java/pages: This package contains the page classes for the different pages on the Saucelabs demo website.
