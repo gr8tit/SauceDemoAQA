@@ -9,7 +9,16 @@
             <parameter name="outputDirectory" value="custom-reports"></parameter>
         </listener>
 
+
     </listeners>
+    <test name="Login and Sort Test">
+        <classes>
+            <class name="SauceDemoTests"/>
+            <class name="SortItemsTests"/>
+            <class name="BaseTests"></class>
+        </classes>
+    </test>
+
 
     <!-- Your test classes here -->
 </suite>
