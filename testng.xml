@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter"></listener>
+        <listener class-name="org.testng.reporters.JUnitXMLReporter"></listener>
+        <listener class-name="org.testng.reporters.XMLReporter"></listener>
+        <listener class-name="org.testng.reporters.TestHTMLReporter"></listener>
+        <listener class-name="org.testng.reporters.TestHTMLReporter">
+            <parameter name="outputDirectory" value="custom-reports"></parameter>
+        </listener>
+
+    </listeners>
+
+    <!-- Your test classes here -->
+</suite>
